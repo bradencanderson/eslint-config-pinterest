@@ -6,12 +6,10 @@ module.exports = {
     parser: 'babel-eslint',
     rules: {
         'camelcase': 0,
-        'consistent-return': 1,
         'global-strict': 0,
         'max-len': [2, 120, 4, {
             "ignorePattern": "^(import\\s.+)|(\\s*(var\\s.+=\\s*)?require\\s*\\(.+)$|(jest.(un)?mock\\()"
         }],
-        'new-cap': 1,
         'no-alert': 2,
         'no-console': 2,
         'no-eq-null': 0,
@@ -54,7 +52,6 @@ module.exports = {
         'no-unsafe-finally': 0,
         'no-useless-escape': 0,
         'guard-for-in': 0,
-        'react/jsx-no-bind': 1,
         'react/no-unused-prop-types': 0,
         'react/no-find-dom-node': 0,
         'react/jsx-filename-extension': 0,
