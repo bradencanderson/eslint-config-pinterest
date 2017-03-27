@@ -59,5 +59,6 @@ module.exports = {
         'react/require-default-props': 0,
         'react/no-find-dom-node': 0,
         'react/jsx-filename-extension': 0,
+        'react/no-unused-prop-types': 0,
     }
 };
